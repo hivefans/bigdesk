@@ -26,7 +26,7 @@ var IndicesStatus = Backbone.Collection.extend({
     model: IndicesStatusTimestamp,
 
     url: function() {
-        return '/_status';
+        return '/_stats';
     },
 
     parse: function(data) {
